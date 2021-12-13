@@ -1,0 +1,11 @@
+node_modules
+views
+config.env
+viewRoutes
+dev-data
+viewsController.js
+public
+.cache
+.parcel-cache
+.public\js
+viewroutes.js
