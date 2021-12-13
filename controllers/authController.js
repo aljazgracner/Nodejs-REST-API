@@ -6,8 +6,6 @@ const { promisify } = require('util');
 const sendEmail = require('./../utils/email');
 const crypto = require('crypto');
 
-exports.axios = require('axios');
-
 const signToken = (id) => {
   return jwt.sign({ id: id }, process.env.JWT_SECRET, {
     expiresIn: process.env.JWT_EXPIRES_IN,
